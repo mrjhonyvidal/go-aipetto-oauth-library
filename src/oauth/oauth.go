@@ -89,10 +89,13 @@ func cleanRequest(request *http.Request) {
 
 func getAccessToken(accessTokenId string) (*accessToken, *errors.RestErr) {
 
+	fmt.Println(accessTokenId)
+
 	client := resty.New().SetHostURL("http://localhost:8082").SetTimeout(1 * time.Minute)
 	resp, err := client.R().Get(fmt.Sprintf("/oauth/access_token/%s", accessTokenId))
 
 	if err != nil {
+		fmt.Println(err)
 		return nil, errors.NewInternalServerError("invalid oauth rest response when trying to obtain access token")
 	}
 
