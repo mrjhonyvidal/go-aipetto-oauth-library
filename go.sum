@@ -1,3 +1,5 @@
+github.com/aipetto/go-aipetto-utils v0.1.0 h1:bASa/9fWFzUp1Ym535EbOuhAtni4JR18vAEjRmsOB5w=
+github.com/aipetto/go-aipetto-utils v0.1.0/go.mod h1:jZO4UIeiHoFDI788tQp8zziEAuRtOj8lZhPGiJzK2II=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/go-resty/resty/v2 v2.4.0 h1:s6TItTLejEI+2mn98oijC5w/Rk2YU+OA6x0mnZN6r6k=
